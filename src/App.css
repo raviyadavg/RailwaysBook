@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+*{margin:0; padding:0; box-sizing: border-box; }
+
+ul,li,a{list-style: none; text-decoration: none;}
+
+.header{ width:100%; float: left; background:#f6fbff; padding:20px 0; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; margin-bottom:15px; }
+.logo{ font-size:22px; font-style: italic;}
+.listing { display: flex; justify-content: space-between; align-items: center;}
+.header .listing {max-width:80%; margin: 0 auto; }
+.listing ul { display: flex;}
+.listing ul li {margin:0 10px; cursor: pointer; font-size:18px}
+
+.filter {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+
+.booking {max-width:80%; margin: 0 auto;}
+.bookingInfo ul { display: flex; width:100%; float: left; justify-content: space-between; padding:15px 30px 15px; margin:0px 0 25px; background:#f1f1f1; border-radius:6px; }
+.bookingInfo ul li {flex-direction: column; display: flex; font-size:16px;}
+.bookingInfo ul li label {margin-bottom:24px; font-size:20px;}
+.bookingInfo ul li span {margin-bottom:10px; font-size:18px;}
+
+.errormsg { font-size:20px; color:#f00; width:100%; float: left; margin-top:20px; }
+
+.listTrain {max-width:80%; margin:0 auto;}
+.listTrain ul { width:100%; float: left;}
+.listTrain ul li{ border:1px solid #999; display: flex;}
+.listTrain ul li .coloumn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+}
+.listTrain ul li label {background:#f1f1f1; height:55px; padding:15px; border-right:1px solid #999; border-bottom:1px solid #999; }
+.listTrain ul li span {padding:15px;border-right:1px solid #999; min-height:80px; }
+.listTrain ul li label, .listTrain ul li span{ display: block; font-size:20px; }
+
+.filter h2{max-width:80%; margin: 0 auto;}
+.filter .form {max-width:80%; display: flex; margin: 20px auto;}
+.filter .form .col {margin:0 10px;}
+.filter .form .col.btn{margin:20px 0 0; height:45px;}
+
+.form {     max-width: 600px;
+  margin: 50px auto 0;
+  display: table;
+  padding: 30px 50px;
+  border-radius: 4px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background: #f9f9f9;}
+  .form h2 {margin-bottom:12px;}
+.col { width:100%; float: left; margin-top:20px; }
+.col select{width:100%; height:45px; font-size:14px; border-radius:4px; padding:0 15px; font-size:20px; }
+.col select option{font-size:14px}
+.col label{ display: block; width:100%; margin-bottom:4px; font-size:20px;}
+.col input[type="text"], .col input[type="password"], .col input[type="number"],  .col input[type="date"]{ width:100%; float: left; height:45px; font-size:20px; border-radius:4px; padding:0 15px; }
+.col  button{ display: inline-block; background:#ccc; cursor: pointer; box-shadow:0 1px 10px #ccc; border-radius:4px; width:160px; height:50px; background: green; color:#fff; font-size:20px; cursor:pointer; border:0; }
+
+.radioGroup{ display: flex; margin-top:15px; }
+.radioGroup .radio{ margin-right:20px; display: flex;}
+.radioGroup .radio input{ margin-right:8px;}
+
+.coloumn button{ border:0; background:green; color:#fff; width:150px; height:50px;  font-size:18px; cursor: pointer; border-radius:4px; }
+
+.btn { display: flex; justify-content: space-between; align-items: center; margin:70px 0 20px; }
+.register{ text-decoration: underline; color:rgb(104, 104, 255); cursor: pointer;}
+
+.bookingForm {display: flex;
+  flex-flow: row;
+  border: 1px solid #999;
+  border-radius:6px;
+  padding: 30px;}
+
+  .formHorizental {    max-width: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;}
+  .formHorizental .bookingForm .col{margin:0 20px;}
